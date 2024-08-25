@@ -56,13 +56,13 @@ const ProjectDetail = async ({ params }: { params: { slug: string } }) => {
                         <div className="flex flex-col md:flex-row">
                             <p className="w-[256px] text-sm md:text-lg font-semibold opacity-50">Links</p>
                             <div className="text-sm md:text-lg font-semibold flex flex-row items-center"> 
-                                { <Link target='_blank' className={ data.links.appStore != "" ? 'text-blue-400' : 'text-black' } href={ data.links.appStore } >App Store</Link> }
+                                { <Link target='_blank' tabIndex={ data.links.appStore == "" ? -1 : undefined } className={ data.links.appStore != "" ? 'text-blue-500' : 'text-black opacity-50 pointer-events-none' } href={ data.links.appStore } >App Store</Link> }
                                 <p className="mx-4">|</p>
-                                { <Link target='_blank' className={ data.links.testflight != "" ? 'text-blue-400' : 'text-black' } href={ data.links.testflight } >Testflight</Link> }
+                                { <Link target='_blank' tabIndex={ data.links.testflight == "" ? -1 : undefined } className={ data.links.testflight != "" ? 'text-blue-500' : 'text-black opacity-50 pointer-events-none' } href={ data.links.testflight } >Testflight</Link> }
                                 <p className="mx-4">|</p>
-                                { <Link target='_blank' className={ data.links.playStore != "" ? 'text-blue-400' : 'text-black' } href={ data.links.playStore } >Play Store</Link> }
+                                { <Link target='_blank' tabIndex={ data.links.playStore == "" ? -1 : undefined } className={ data.links.playStore != "" ? 'text-blue-500' : 'text-black opacity-50 pointer-events-none' } href={ data.links.playStore } >Play Store</Link> }
                                 <p className="mx-4">|</p>
-                                { <Link target='_blank' className={ data.links.github != "" ? 'text-blue-400' : 'text-black' } href={ data.links.github } >GitHub</Link> }
+                                { <Link target='_blank' tabIndex={ data.links.github == "" ? -1 : undefined } className={ data.links.github != "" ? 'text-blue-500' : 'text-black opacity-50 pointer-events-none' } href={ data.links.github } >GitHub</Link> }
                             </div>
                         </div>
                     </div>
