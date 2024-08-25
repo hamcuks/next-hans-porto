@@ -55,7 +55,7 @@
         "role": "App Developer | UI/UX Designer | Researcher",
         "duration": "1 Month",
         "release": "May 27, 2024",
-        "description": "Aplikasi yang digunakan dalam mencari waktu luang untuk belajar. Memiliki fitur gamifikasi dan tracking progres belajar untuk menjaga konsistensi belajar pengguna",
+        "description": "Unlock your full potential with Thirty’s, the app designed to help professional workers seamlessly integrate learning into their daily routines. Our innovative application assists you in finding and allocating study time amidst your busy schedule, ensuring consistent personal and professional growth. By dedicating just 30 minutes a day, you can make significant strides toward your goals. Thirty’s suggests optimal learning times based on your schedule, provides a 30-minute countdown timer, and rewards your dedication with achievements and badges. Track your progress, stay motivated, and reach milestones with ease. Featuring a user-friendly interface, Thirty’s makes it simple to incorporate consistent learning into your busy life. Start your journey toward personal and professional excellence today with Thirty’s.",
         "technologies": [],
         "attachments": [],
         "collaborators": [
@@ -167,7 +167,8 @@
         "collaborators": [
             "Dinda Gladis Surya Dara ( Backend Developer )",
             "Anistya Dwi Setiawan ( Backend Developer )",
-            "Aditya Khoirul Anam ( System Analyst )"
+            "Aditya Khoirul Anam ( System Analyst )",
+            "Eduardus Oktario Ronny Pramuji ( UI/UX Designer )"
         ],
         "links": {
             "playStore": "https://play.google.com/store/apps/details?id=id.cleansheet.app",
