@@ -1,5 +1,5 @@
 interface Project {
-    image: string,
+    thumbnail: string,
     name: string,
     slug: string
     associatedWith: string,
