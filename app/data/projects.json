@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Climbr",
+        "slug": "climbr",
+        "image": "",
+        "associatedWith": "Apple Developer Academy @ IL",
+        "role": "App Developer | Researcher",
+        "duration": "1 Month",
+        "release": "-",
+        "links": {
+            "playStore": "",
+            "appStore": "",
+            "testflight": "",
+            "github": ""
+        }
+    },
+    {
+        "name": "PawPrint",
+        "slug": "pawprint",
+        "image": "",
+        "associatedWith": "Apple Developer Academy @ IL",
+        "role": "App Developer | Researcher",
+        "duration": "1 Month",
+        "release": "string",
+        "links": {
+            "playStore": "",
+            "appStore": "https://apps.apple.com/id/app/pawprint/id6517358632",
+            "testflight": "",
+            "github": ""
+        }
+    },
+    {
+        "name": "Thirty's",
+        "slug": "thirtys",
+        "image": "",
+        "associatedWith": "Apple Developer Academy @ IL",
+        "role": "App Developer | UI/UX Designer | Researcher",
+        "duration": "1 Month",
+        "release": "-",
+        "links": {
+            "playStore": "",
+            "appStore": "",
+            "testflight": "https://testflight.apple.com/join/MNt7Gza3",
+            "github": ""
+        }
+    },
+    {
+        "name": "Aguadigi",
+        "slug": "aguadigi",
+        "image": "",
+        "associatedWith": "PT Nusantara Infrastructure Tbk.",
+        "role": "Flutter Developer",
+        "duration": "5 Months",
+        "release": "-",
+        "links": {
+            "playStore": "",
+            "appStore": "",
+            "testflight": "",
+            "github": ""
+        }
+    },
+    {
+        "name": "EGP Akses",
+        "slug": "egp-akses",
+        "image": "",
+        "associatedWith": "KardusInfo Digital Agency",
+        "role": "string",
+        "duration": "1 Years 5 Months",
+        "release": "-",
+        "links": {
+            "playStore": "https://play.google.com/store/apps/details?id=com.kardusinfo.egpakses",
+            "appStore": "",
+            "testflight": "",
+            "github": ""
+        }
+    },
+    {
+        "name": "Wallers",
+        "slug": "wallers",
+        "image": "",
+        "associatedWith": "-",
+        "role": "Flutter Developer",
+        "duration": "2 Months",
+        "release": "-",
+        "links": {
+            "playStore": "",
+            "appStore": "",
+            "testflight": "",
+            "github": "https://github.com/hamcuks/wallers"
+        }
+    },
+    {
+        "name": "NISA",
+        "slug": "nisa",
+        "image": "",
+        "associatedWith": "PT Nusantara Infrastructure Tbk.",
+        "role": "Flutter Developer",
+        "duration": "5 Months",
+        "release": "-",
+        "links": {
+            "playStore": "https://play.google.com/store/apps/details?id=com.nusantarainfrastructure.nisa",
+            "appStore": "",
+            "testflight": "",
+            "github": ""
+        }
+    },
+    {
+        "name": "CleanSheet Mobile",
+        "slug": "cleansheet-mobile",
+        "image": "",
+        "associatedWith": "PT Rapidev Inovasi Nusantara",
+        "role": "Flutter Developer",
+        "duration": "3 Months",
+        "release": "-",
+        "links": {
+            "playStore": "https://play.google.com/store/apps/details?id=id.cleansheet.app",
+            "appStore": "",
+            "testflight": "",
+            "github": ""
+        }
+    }
+]

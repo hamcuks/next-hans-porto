@@ -1,0 +1,58 @@
+[
+    {
+        "companyName": "Apple Developer Academy @ IL",
+        "role": "iOS Learner",
+        "employmentType": "Apprenticeship",
+        "duration": "Feb 2024 - Dec 2024",
+        "companyLogo": "/assets/icons/apple-developer.png"
+    },
+    {
+        "companyName": "PT Nusantara Infrastructure Tbk.",
+        "role": "IT Staff Flutter Developer",
+        "employmentType": "Contract",
+        "duration": "Sept 2023 - Feb 2024",
+        "companyLogo": "/assets/icons/nusantara-infastructure.png"
+    },
+    {
+        "companyName": "KardusInfo Digital Agency",
+        "role": "Mobile Developer",
+        "employmentType": "Freelance",
+        "duration": "Oct 2022 - Aug 2023",
+        "companyLogo": "/assets/icons/kardusinfo.png"
+    },
+    {
+        "companyName": "PT Nusantara Infrastructure Tbk.",
+        "role": "Flutter Developer",
+        "employmentType": "Internship",
+        "duration": "Feb 2023 - Jun 2024",
+        "companyLogo": "/assets/icons/nusantara-infastructure.png"
+    },
+    {
+        "companyName": "PT Rapidev Inovasi Nusantara",
+        "role": "Mobile Engineer",
+        "employmentType": "Contract",
+        "duration": "Jul 2022 - Dec 2022",
+        "companyLogo": "/assets/icons/rapidev.png"
+    },
+    {
+        "companyName": "PT Bisa Artifisial Indonesia",
+        "role": "Mobile Developer",
+        "employmentType": "Internship",
+        "duration": "Feb 2022 - Jul 2022",
+        "companyLogo": "/assets/icons/bisa-ai.png"
+    },
+    {
+        "companyName": "KardusInfo Digital Agency",
+        "role": "Mobile Developer",
+        "employmentType": "Freelance",
+        "duration": "Oct 2021 - March 2022",
+        "companyLogo": "/assets/icons/kardusinfo.png"
+    },
+    {
+        "companyName": "PT Widya Kreasi Bangsa",
+        "role": "Flutter Developer",
+        "employmentType": "Internship",
+        "duration": "Aug 2021 - Sept 2021",
+        "companyLogo": "/assets/icons/widya-edu.png"
+    }
+]

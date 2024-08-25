@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Flutter",
+        "icon": "/assets/icons/flutter.png",
+        "description": "An UI framework to build hybrid apps"
+    },
+    {
+        "name": "Apple SwiftUI",
+        "icon": "/assets/icons/swiftui.png",
+        "description": "Declarative UI framework to build Apple OSes app"
+    },
+    {
+        "name": "Apple UIKit",
+        "icon": "/assets/icons/uikit.png",
+        "description": "Imperative UI framework to build iOS app"
+    },
+    {
+        "name": "Apple AppKit",
+        "icon": "/assets/icons/appkit.png",
+        "description": "AppKit is a graphical UI toolkit to build macOS ap"
+    },
+    {
+        "name": "Figma",
+        "icon": "/assets/icons/figma.png",
+        "description": "Awesome tool to craft beautiful UI design"
+    },
+    {
+        "name": "Xcode",
+        "icon": "/assets/icons/xcode.png",
+        "description": "Best IDE that helps me to craft my iOS projects"
+    },
+    {
+        "name": "Visual Studio Code",
+        "icon": "/assets/icons/vscode.png",
+        "description": "Best editor ever to manage my source code"
+    },
+    {
+        "name": "Git",
+        "icon": "/assets/icons/git.png",
+        "description": "Versioning tool to manage source code"
+    },
+    {
+        "name": "iOS Frameworks",
+        "icon": "/assets/icons/plugins.png",
+        "description": "CoreData, SwiftData, PencilKit, Swinject, Combine, etc"
+    },
+    {
+        "name": "Flutter Libraries",
+        "icon": "/assets/icons/plugins.png",
+        "description": "Firebase, ISAR, Hive, GetX, BLoC, Dio, etc"
+    }
+]
