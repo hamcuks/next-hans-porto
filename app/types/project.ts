@@ -6,6 +6,10 @@ interface Project {
     role: string,
     duration: string,
     release: string,
+    description: string,
+    technologies: string[],
+    attachments: string[],
+    collaborators: string[],
     links: ProjectLinks
 }
 

@@ -65,29 +65,28 @@ const ProjectDetail = async ({ params }: { params: { slug: string } }) => {
                                 { <Link target='_blank' tabIndex={ data.links.github == "" ? -1 : undefined } className={ data.links.github != "" ? 'text-blue-500' : 'text-black opacity-50 pointer-events-none' } href={ data.links.github } >GitHub</Link> }
                             </div>
                         </div>
+                        { data.collaborators != null && ( <div className="mt-2 md:mt-4 w-full h-[1px] bg-black opacity-15"></div> ) }
                     </div>
+                    { 
+                        data.collaborators != null &&
+                        ( 
+                        <div className="mt-2 md:mt-4">
+                            <div className="flex flex-col md:flex-row">
+                                <p className="w-[256px] text-sm md:text-lg font-semibold opacity-50">Collaborators</p>
+                                <p className="text-sm md:text-lg font-semibold">
+                                    { data.collaborators.map(x => ( <li className='list-none mb-2'> {x} </li> ))  }
+                                </p>
+                            </div>
+                        </div> 
+                        )
+                    }
                 </div>
             </div>
             <div className="mt-14 md:mt-16">
                 <h3 className="text-base md:text-2xl font-semibold">Summary</h3>
 
                 <div className="mt-6 md:mt-9 pb-9">
-                    <p className="text-sm md:text-lg">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, libero, quibusdam ab placeat aut delectus facilis non ipsam nesciunt error quasi possimus quod? Id debitis nam cum maxime quas eveniet!
-                    </p>
+                    <p className="text-sm md:text-lg">{ data.description ?? "No Description" }</p>
                 </div>
             </div>
         </div>

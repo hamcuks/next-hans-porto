@@ -7,9 +7,15 @@
         "role": "App Developer | Researcher",
         "duration": "1 Month",
         "release": "Aug 22, 2024",
-        "description": "",
+        "description": null,
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Bayu Septyan Nur Hidayat ( App Developer | Researcher )",
+            "Fatakhillah Khaqo ( App Developer | Researcher )",
+            "I Gusti Ngurah Surya Ardika Dinata Putra ( App Developer | Researcher )",
+            "Chintya Tio Anggarani Siahaan ( UI/UX Designer | Researcher )"
+        ],
         "links": {
             "playStore": "",
             "appStore": "",
@@ -28,6 +34,12 @@
         "description": "Berbasis pada iPad untuk meningkatkan kemampuan tulis tangan pada guru yang belum terbiasa menulis di papan tulis. Aplikasi ini memiliki fitur practice dengan metode tracing dan letter guidelines, serta asesmen tulisan tangan menggunakan OCR",
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Maria Bernadetha Charlotta Wonda Tiala ( App Developer | Researcher )",
+            "Isaac Newton Tambunan ( App Developer | Researcher )",
+            "Karina Gusti Dian Wulan ( UI/UX Designer | Illustrator | Researcher )",
+            "Risma Ananda Harby ( UI/UX Designer | Researcher )"
+        ],
         "links": {
             "playStore": "",
             "appStore": "https://apps.apple.com/id/app/pawprint/id6517358632",
@@ -46,6 +58,12 @@
         "description": "Aplikasi yang digunakan dalam mencari waktu luang untuk belajar. Memiliki fitur gamifikasi dan tracking progres belajar untuk menjaga konsistensi belajar pengguna",
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Bayu Septyan Nur Hidayat ( App Developer | Researcher )",
+            "Rajesh Triadi Noftarizal ( App Developer | Researcher )",
+            "Dwiky Setyo Permadi ( UI/UX Designer | Researcher )",
+            "Niko Febrianur ( UI/UX Designer | Researcher )"
+        ],
         "links": {
             "playStore": "",
             "appStore": "",
@@ -64,6 +82,9 @@
         "description": "Digitalisasi proses reporting pada anak perusahaan PT Nusantara Infrastructure Tbk. yang bergerak pada sektor air. Fitur yang diakomodir meliputi reporting dengan dynamic form, implementasi multi tenant, presensi, dan pelaporan temuan",
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Berli Suharmanto ( Fullstack Developer )"
+        ],
         "links": {
             "playStore": "https://play.google.com/store/apps/details?id=com.nusantarainfrastructure.aguadigiopr",
             "appStore": "",
@@ -82,6 +103,7 @@
         "description": "Digunakan untuk menunjang kegiatan karyawan di PT Esa Garda Pratama seperti melakukan presensi, payroll, dan koperasi",
         "technologies": [],
         "attachments": [],
+        "collaborators": null,
         "links": {
             "playStore": "https://play.google.com/store/apps/details?id=com.kardusinfo.egpakses",
             "appStore": "",
@@ -100,6 +122,7 @@
         "description": "Aplikasi yang digunakan untuk membaca saldo E-Toll card dengan memanfaatkan fitur NFC pada smartphone",
         "technologies": [],
         "attachments": [],
+        "collaborators": null,
         "links": {
             "playStore": "",
             "appStore": "",
@@ -118,6 +141,11 @@
         "description": "Singkatan dari Nusantara Infrastructure Self Assessment merupakan aplikasi internal perusahaan yang digunakan sebagai upaya digitalisasi pada proses inspeksi jalan tol di PT Nusantara Infrastructure Tbk.",
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Rizal Abdul Basith ( Fullstack Developer )",
+            "Kevin Leonard Sugiman ( Fullstack Developer )",
+            "Khalid Rinaldy ( Fullstack Developer )"
+        ],
         "links": {
             "playStore": "https://play.google.com/store/apps/details?id=com.nusantarainfrastructure.nisa",
             "appStore": "",
@@ -136,6 +164,11 @@
         "description": "Cleaning solution app dengan menyediakan cleaning service untuk area JABODETABEK sekaligus mengurangi anak putus sekolah dan pengangguran dengan memberdayakan anak muda",
         "technologies": [],
         "attachments": [],
+        "collaborators": [
+            "Dinda Gladis Surya Dara ( Backend Developer )",
+            "Anistya Dwi Setiawan ( Backend Developer )",
+            "Aditya Khoirul Anam ( System Analyst )"
+        ],
         "links": {
             "playStore": "https://play.google.com/store/apps/details?id=id.cleansheet.app",
             "appStore": "",
