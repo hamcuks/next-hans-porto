@@ -74,7 +74,7 @@ const ProjectDetail = async ({ params }: { params: { slug: string } }) => {
                             <div className="flex flex-col md:flex-row">
                                 <p className="w-[256px] text-sm md:text-lg font-semibold opacity-50">Collaborators</p>
                                 <p className="text-sm md:text-lg font-semibold">
-                                    { data.collaborators.map(x => ( <li className='list-none mb-2'> {x} </li> ))  }
+                                    { data.collaborators.map((data, key) => ( <li key={key} className='list-none mb-2'> {data} </li> ))  }
                                 </p>
                             </div>
                         </div> 
