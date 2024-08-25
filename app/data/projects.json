@@ -2,7 +2,7 @@
     {
         "name": "Climbr",
         "slug": "climbr",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/climbr.png",
         "associatedWith": "Apple Developer Academy @ IL",
         "role": "App Developer | Researcher",
         "duration": "1 Month",
@@ -17,7 +17,7 @@
     {
         "name": "PawPrint",
         "slug": "pawprint",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/pawprint.png",
         "associatedWith": "Apple Developer Academy @ IL",
         "role": "App Developer | Researcher",
         "duration": "1 Month",
@@ -32,7 +32,7 @@
     {
         "name": "Thirty's",
         "slug": "thirtys",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/thirtys.png",
         "associatedWith": "Apple Developer Academy @ IL",
         "role": "App Developer | UI/UX Designer | Researcher",
         "duration": "1 Month",
@@ -47,7 +47,7 @@
     {
         "name": "Aguadigi",
         "slug": "aguadigi",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/aguadigi.png",
         "associatedWith": "PT Nusantara Infrastructure Tbk.",
         "role": "Flutter Developer",
         "duration": "5 Months",
@@ -62,7 +62,7 @@
     {
         "name": "EGP Akses",
         "slug": "egp-akses",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/egp-akses.png",
         "associatedWith": "KardusInfo Digital Agency",
         "role": "string",
         "duration": "1 Years 5 Months",
@@ -77,7 +77,7 @@
     {
         "name": "Wallers",
         "slug": "wallers",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/wallers.png",
         "associatedWith": "-",
         "role": "Flutter Developer",
         "duration": "2 Months",
@@ -92,7 +92,7 @@
     {
         "name": "NISA",
         "slug": "nisa",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/nisa.png",
         "associatedWith": "PT Nusantara Infrastructure Tbk.",
         "role": "Flutter Developer",
         "duration": "5 Months",
@@ -107,7 +107,7 @@
     {
         "name": "CleanSheet Mobile",
         "slug": "cleansheet-mobile",
-        "image": "",
+        "thumbnail": "/assets/thumbnails/cleansheet.png",
         "associatedWith": "PT Rapidev Inovasi Nusantara",
         "role": "Flutter Developer",
         "duration": "3 Months",

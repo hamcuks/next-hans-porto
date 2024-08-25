@@ -3,7 +3,7 @@ import Experience from '../types/experience'
 
 const ExperienceItem = ( params: { data: Experience } ) => {
   return (
-    <div className="p-4 my-3 hover:border-2 rounded-lg flex flex-row">
+    <div className="p-4 my-3 border-2 border-transparent hover:border-slate-200 rounded-2xl flex flex-row duration-300 ease-in-out transition-all hover:transition-all hover:duration-300">
         <div className="w-14 h-14 border-2 mr-4 p-3 rounded-xl">
             <img className="h-full rounded-md" src={params.data.companyLogo} alt="" />
         </div>
