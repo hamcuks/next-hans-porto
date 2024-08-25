@@ -2,10 +2,12 @@ import React from 'react'
 import { promises as fs } from 'fs'
 import Project from '@/app/types/project'
 import Link from 'next/link'
+import path from 'path'
 
 const ProjectDetail = async ({ params }: { params: { slug: string } }) => {
 
-  const projects: Project[] = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8').then<Project[]>(res => JSON.parse(res))
+  const url = path.join(process.cwd(), '/app/data/projects.json')
+  const projects: Project[] = await fs.readFile(url, 'utf8').then<Project[]>(res => JSON.parse(res))
   const data: Project = projects.filter((x) => x.slug == params.slug)[0]
   
   return (

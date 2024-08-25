@@ -2,9 +2,11 @@ import React from 'react'
 import { promises as fs } from 'fs'
 import Project from '../types/project'
 import ProjectItem from '../components/project_item'
+import path from 'path'
 
 export default async function MyProjects() {
-  const projects: Project[] = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8').then<Project[]>(res => JSON.parse(res))
+  const url = path.join(process.cwd(), '/app/data/projects.json')
+  const projects: Project[] = await fs.readFile(url, 'utf8').then<Project[]>(res => JSON.parse(res))
 
   return (
     <section className="px-4 py-16 md:px-32 md:w-10/12">

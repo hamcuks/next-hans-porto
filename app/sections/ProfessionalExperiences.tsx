@@ -2,9 +2,11 @@ import React from 'react'
 import Experience from '../types/experience'
 import ExperienceItem from '../components/experience_item'
 import { promises as fs } from 'fs'
+import path from 'path'
 
 export default async function ProfessionalExperiences() {
-  const experiences: Experience[] = await fs.readFile(process.cwd() + '/app/data/experiences.json', 'utf8').then<Experience[]>(res => JSON.parse(res))
+  const url = path.join(process.cwd(), '/app/data/experiences.json')
+  const experiences: Experience[] = await fs.readFile(url, 'utf8').then<Experience[]>(res => JSON.parse(res))
 
   return (
     <section className="px-4 w-full py-16 md:px-32 md:w-10/12 ">

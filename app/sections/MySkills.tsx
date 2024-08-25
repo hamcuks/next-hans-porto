@@ -2,9 +2,11 @@ import React from 'react'
 import { promises as fs } from 'fs'
 import Technology from '../types/technology'
 import TechItem from '../components/tech_item'
+import path from 'path'
 
 export default async function MySkills() {
-  const technologies: Technology[] = await fs.readFile(process.cwd() + '/app/data/technologies.json', 'utf8').then<Technology[]>(res => JSON.parse(res))
+  const url = path.join(process.cwd(), '/app/data/technologies.json')
+  const technologies: Technology[] = await fs.readFile(url, 'utf8').then<Technology[]>(res => JSON.parse(res))
   return (
     <section className="px-4 py-16 md:px-32 md:w-10/12">
         <h1 className="text-2xl md:text-4xl font-bold mb-4">👨‍💻</h1>
