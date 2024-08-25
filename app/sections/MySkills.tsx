@@ -8,7 +8,9 @@ export default async function MySkills() {
   return (
     <section className="px-4 py-16 md:px-32 md:w-10/12">
         <h1 className="text-2xl md:text-4xl font-bold mb-4">👨‍💻</h1>
-        <h1 className="text-2xl md:text-4xl font-bold pb-6">Technologies & Tools</h1>
+        <h1 className="text-2xl md:text-4xl font-bold">Technologies & Tools</h1>
+
+        <h3 className='text-xl opacity-50 font-semibold md:w-3/5 mt-4 mb-6 md:mb-14'>These are technologies & tools that I used to build awesome mobile application</h3>
         
         <div className="md:grid md:grid-cols-3 md:grid-flow-row">
         { technologies.map( (data: Technology, key) =>  (
